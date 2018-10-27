@@ -30,15 +30,13 @@ public class Main {
         Class c = null;
         try {
             properties.load(new FileInputStream("src/abstractfactory/clothesfactory.properties"));
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
-        try {
             c = Class.forName(properties.getProperty(brand));
             factory = (ClothesFactory) c.newInstance();
-            student.clothe(factory);
-            
-        } catch (NullPointerException npe) {
+            student.clothe(factory);  
+        }catch (IOException ex) {
+            ex.printStackTrace();
+        } 
+        catch (NullPointerException npe) {
             System.out.println("Brand not found!");
         } catch (Exception ex) {
             ex.printStackTrace();
