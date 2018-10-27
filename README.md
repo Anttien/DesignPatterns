@@ -5,3 +5,4 @@ These are simple programs to learn different design patterns introduced in the b
 
 Projects:
 1. Factory Method
+2. Abstract Factory
