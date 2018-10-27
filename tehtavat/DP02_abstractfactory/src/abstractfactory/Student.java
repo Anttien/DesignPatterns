@@ -1,5 +1,7 @@
 package abstractfactory;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Antti Nieminen

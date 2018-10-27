@@ -9,6 +9,6 @@ public class BossHeadwear implements Headwear {
     
     @Override
     public String toString() {
-        return "A cap by Hugo Boss";
+        return "A cap by Boss";
     }
 }
