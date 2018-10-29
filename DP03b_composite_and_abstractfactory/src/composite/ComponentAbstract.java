@@ -13,16 +13,6 @@ public abstract class ComponentAbstract implements Component {
     private double price;
 
     @Override
-    public double getPrice() {
-        return this.price;
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
-    }
-
-    @Override
     public ArrayList<Component> getChildComponents() {
         return null;
     }
