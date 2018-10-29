@@ -9,18 +9,7 @@ import java.util.ArrayList;
 public abstract class ComponentAbstract implements Component {
 
     private String name;
-
     private double price;
-
-    @Override
-    public double getPrice() {
-        return this.price;
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
-    }
 
     @Override
     public ArrayList<Component> getChildComponents() {
