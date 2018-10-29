@@ -1,3 +1,3 @@
-An implementation of the composite design pattern.
+An implementation that combines both the composite design pattern and abstract factory.
 
-![alt text](UML%2003%20Composite.png)
+![alt text](UML%2003b%20Composite%20Abstract%20Factory.png)
