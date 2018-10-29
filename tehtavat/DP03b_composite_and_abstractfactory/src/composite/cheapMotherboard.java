@@ -2,11 +2,7 @@ package composite;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author Antti Nieminen
- */
-public class Motherboard extends ComponentAbstract {
+public class cheapMotherboard extends Motherboard {
 
     private String name;
 
@@ -14,19 +10,10 @@ public class Motherboard extends ComponentAbstract {
 
     private ArrayList<Component> childComponents;
 
-    public Motherboard(String name, double price) {
-        this.name = name;
-        this.price = price;
+    public cheapMotherboard() {
+        this.name = "MSI Z370-A Pro";
+        this.price = 87.99;
         childComponents = new ArrayList();
-    }
-
-    @Override
-    public double getPrice() {
-        double totalPrice = price;
-        for (Component component : childComponents) {
-            totalPrice += component.getPrice();
-        }
-        return totalPrice;
     }
 
     @Override
@@ -45,10 +32,16 @@ public class Motherboard extends ComponentAbstract {
     }
 
     @Override
+    public double getPrice() {
+        double totalPrice = price;
+        for (Component component : childComponents) {
+            totalPrice += component.getPrice();
+        }
+        return totalPrice;
+    }
+
     public String getName() {
         return name;
     }
-    
-    
 
 }

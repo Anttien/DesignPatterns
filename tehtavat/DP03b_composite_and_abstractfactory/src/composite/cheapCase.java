@@ -2,11 +2,7 @@ package composite;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author Antti Nieminen
- */
-public class Case extends ComponentAbstract {
+public class cheapCase extends Case {
 
     private String name;
 
@@ -14,19 +10,10 @@ public class Case extends ComponentAbstract {
 
     private ArrayList<Component> childComponents;
 
-    public Case(String name, double price) {
-        this.name = name;
-        this.price = price;
+    public cheapCase() {
+        this.name = "Fractal Design Focus G";
+        this.price = 42.99;
         childComponents = new ArrayList();
-    }
-
-    @Override
-    public double getPrice() {
-        double totalPrice = price;
-        for (Component component : childComponents) {
-            totalPrice += component.getPrice();
-        }
-        return totalPrice;
     }
 
     @Override
@@ -51,6 +38,14 @@ public class Case extends ComponentAbstract {
     }
 
     @Override
+    public double getPrice() {
+        double totalPrice = price;
+        for (Component component : childComponents) {
+            totalPrice += component.getPrice();
+        }
+        return totalPrice;
+    }
+
     public String getName() {
         return name;
     }
