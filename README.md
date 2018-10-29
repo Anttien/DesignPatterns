@@ -6,7 +6,7 @@ These are simple programs that implements different design patterns introduced i
 Please note that some of the code is in Finnish.
 
 Projects:
-1. Factory Method
-2. Abstract Factory
-3. Composite
-3b. Same as 3 but with Abstract Factory
+- 1. Factory Method
+- 2. Abstract Factory
+- 3. Composite
+- 3b. Same as 3 but with Abstract Factory
