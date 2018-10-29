@@ -9,4 +9,4 @@ Projects:
 1. Factory Method
 2. Abstract Factory
 3. Composite
-3.b. Same as 3 but with Abstract Factory
+3. b. Same as 3 but with Abstract Factory
