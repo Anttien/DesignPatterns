@@ -14,3 +14,5 @@
 
 # Astah file created when application is running
 *.lock
+/DP04_observer/DP04_observer/nbproject/private/
+/DP04_observer/DP04_observer/build/
