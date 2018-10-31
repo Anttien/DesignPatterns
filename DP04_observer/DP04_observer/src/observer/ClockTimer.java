@@ -46,7 +46,6 @@ public class ClockTimer extends Observable implements Runnable {
                         clock.update(hour, minute, second);
                     }
                 }
-                
             }
         }
     }
@@ -63,7 +62,7 @@ public class ClockTimer extends Observable implements Runnable {
         return second;
     }
 
-    // This is done to make the observer "push" model possible
+    // This is done to make the observer push model possible
     @Override
     public void addObserver(Observer o) {
         this.observers.add(o);

@@ -10,7 +10,7 @@ import java.util.Observer;
 public class Main {
 
     public static void main(String[] args) {
-        // Create observer
+        // Create observers
         Observer clock = new Clock();
         Observer pointerHour = new PointerHour();
         Observer pointerMinute = new PointerMinute();
