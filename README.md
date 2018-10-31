@@ -9,3 +9,4 @@ Please note that some of the code is in Finnish.
 - DP02 - Abstract Factory
 - DP03 - Composite
 - DP03b - Same as 3 but with Abstract Factory
+- DP04 - Observer
