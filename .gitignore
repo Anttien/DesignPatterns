@@ -16,3 +16,5 @@
 *.lock
 /DP04_observer/DP04_observer/nbproject/private/
 /DP04_observer/DP04_observer/build/
+/DP05_singleton/DP05_singleton/nbproject/private/
+/DP05_singleton/build/

@@ -1,0 +1,32 @@
+New space bee hive created! ID: 1
+New space bee hive created! ID: 2
+New space bee hive created! ID: 3
+Hive 1 created a new space bee! ID: 1
+Hive 3 created a new space bee! ID: 2
+Hive 2 created a new space bee! ID: 2
+Hive 1 created a new space bee! ID: 3
+Hive 3 created a new space bee! ID: 4
+Hive 2 created a new space bee! ID: 5
+Hive 1 created a new space bee! ID: 6
+Hive 3 created a new space bee! ID: 7
+Hive 2 created a new space bee! ID: 8
+Hive 1 got 71.67 kg of new spacepollen from bee 1. Total amount now: 71.67
+Hive 1 got 24.88 kg of new spacepollen from bee 6. Total amount now: 96.55
+Hive 3 got 42.27 kg of new spacepollen from bee 2. Total amount now: 42.27
+Hive 3 got 5.54 kg of new spacepollen from bee 7. Total amount now: 47.81
+Hive 2 got 77.25 kg of new spacepollen from bee 5. Total amount now: 77.25
+Hive 3 got 41.26 kg of new spacepollen from bee 4. Total amount now: 89.08
+Hive 2 got 10.77 kg of new spacepollen from bee 2. Total amount now: 88.01
+Hive 1 got 23.97 kg of new spacepollen from bee 3. Total amount now: 120.52
+Hive 2 got 92.30 kg of new spacepollen from bee 8. Total amount now: 180.32
+Hive 1 got 95.95 kg of new spacepollen from bee 6. Total amount now: 216.47
+Hive 1 got 31.31 kg of new spacepollen from bee 3. Total amount now: 247.78
+Hive 3 got 13.80 kg of new spacepollen from bee 2. Total amount now: 102.88
+Hive 1 got 76.40 kg of new spacepollen from bee 1. Total amount now: 324.19
+Hive 3 got 5.94 kg of new spacepollen from bee 4. Total amount now: 108.82
+Hive 2 got 22.80 kg of new spacepollen from bee 2. Total amount now: 203.12
+Hive 2 got 69.23 kg of new spacepollen from bee 5. Total amount now: 272.35
+Hive 3 got 83.28 kg of new spacepollen from bee 7. Total amount now: 192.09
+Hive 2 got 39.61 kg of new spacepollen from bee 8. Total amount now: 311.95
+Hive 1 got 39.69 kg of new spacepollen from bee 3. Total amount now: 363.87
+Hive 2 got 40.15 kg of new spacepollen from bee 2. Total amount now: 352.11
