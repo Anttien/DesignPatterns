@@ -23,6 +23,9 @@ public class SpaceBeeHive implements Runnable {
         new Thread(beefactory.createSpaceBee(this)).start();
         new Thread(beefactory.createSpaceBee(this)).start();
         new Thread(beefactory.createSpaceBee(this)).start();        
+        new Thread(beefactory.createSpaceBee(this)).start();        
+        new Thread(beefactory.createSpaceBee(this)).start();        
+        new Thread(beefactory.createSpaceBee(this)).start();        
     }
 
     public int getId() {
