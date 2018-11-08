@@ -34,18 +34,9 @@ public class ClockTimer extends Observable implements Runnable {
                 startMs = System.currentTimeMillis();
                 tick();
                 counter++;
+                
                 setChanged();
-                
-                // Using pull method
-                notifyObservers(this);
-                
-                // Using push method
-                for (Observer o : observers) {
-                    if (o.getClass() == Clock.class) {
-                        Clock clock = (Clock) o;
-                        clock.update(hour, minute, second);
-                    }
-                }
+                notifyObservers(new int[]{hour, minute, second});
             }
         }
     }

@@ -21,13 +21,10 @@ public class Clock implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-    }
-    
-    // This is done to make the observer "push" model possible
-    public void update(int hour, int minute, int second) {
-        this.hour = hour;
-        this.minute = minute;
-        this.second = second;
+        int[] time = (int[]) arg;
+        this.hour = time[0];
+        this.minute = time[1];
+        this.second = time[2];
         System.out.println(this.toString());
     }
 
