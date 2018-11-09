@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * A simple implementation of a clock that is observable.
@@ -27,18 +29,26 @@ public class ClockTimer extends Observable implements Runnable {
     
     @Override
     public void run() {
-        int counter = 0;
-        long startMs = System.currentTimeMillis();
-        while (counter < 100) {
-            if (System.currentTimeMillis() - startMs >= 1000) {
-                startMs = System.currentTimeMillis();
+        Timer timer = new Timer();
+        TimerTask timertask = new TimerTask() {
+            @Override
+            public void run() {
                 tick();
-                counter++;
-                
                 setChanged();
                 int[] time = new int[]{hour, minute, second};
-                notifyObservers(time);
+                notifyObservers(time); 
             }
+        };
+        
+        // Do the task every second
+        timer.scheduleAtFixedRate(timertask, 0, 1000);
+        
+        // Cancel the task after about 10 seconds
+        try {
+            Thread.sleep(10000);
+            timer.cancel();
+        } catch (InterruptedException ex) {
+            System.out.println(ex);
         }
     }
     
