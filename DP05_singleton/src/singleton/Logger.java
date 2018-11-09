@@ -3,6 +3,7 @@ package singleton;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.time.Instant;
 
 /**
  * Logger class that logs beehive information to a file.
@@ -20,6 +21,14 @@ public class Logger {
     private Logger logger;
     private final String logFile = "beehive_log.txt";
     private PrintWriter writer;
+
+    public static enum level {
+        ERROR,
+        WARNING,
+        INFO,
+        FINE,
+        SUPER        
+    }
 
     private Logger() {
         try {
@@ -39,24 +48,9 @@ public class Logger {
         return loggerHolder.INSTANCE;
     }
 
-    public void logCollectSpacePollen(SpaceBeeHive hive, double amountOfNewPollen, SpaceBee bee) {
-        System.out.printf("Hive %d got %.2f kg of new spacepollen from bee %d. Total amount now: %.2f\n",
-                hive.getId(), amountOfNewPollen, bee.getId(), hive.getSpacePollen());
-        writer.printf("Hive %d got %.2f kg of new spacepollen from bee %d. Total amount now: %.2f",
-                hive.getId(), amountOfNewPollen, bee.getId(), hive.getSpacePollen());
+    public void log(level level, String message) {
+        System.out.println(Instant.now() + " - " + level + " - " + message);
+        writer.print(Instant.now() + " - " + level + " - " + message);
         writer.println();
     }
-
-    public void logNewHive(SpaceBeeHive hive) {
-        System.out.printf("New space bee hive created! ID: %d\n", hive.getId());
-        writer.printf("New space bee hive created! ID: %d", hive.getId());
-        writer.println();
-    }
-
-    public void logNewBee(SpaceBeeHive hive, SpaceBee bee) {
-        System.out.printf("Hive %d created a new space bee! ID: %d\n", hive.getId(), bee.getId());
-        writer.printf("Hive %d created a new space bee! ID: %d", hive.getId(), bee.getId());
-        writer.println();
-    }
-
 }
