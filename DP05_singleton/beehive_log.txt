@@ -1,104 +1,60 @@
-2018-11-09T09:02:56.065Z - INFO - New space bee hive created! ID: 1
-2018-11-09T09:02:56.066Z - INFO - New space bee hive created! ID: 2
-2018-11-09T09:02:56.066Z - INFO - New space bee hive created! ID: 3
-2018-11-09T09:02:56.068Z - INFO - Hive 1 created a new space bee! ID: 3
-2018-11-09T09:02:56.068Z - INFO - Hive 3 created a new space bee! ID: 1
-2018-11-09T09:02:56.068Z - INFO - Hive 2 created a new space bee! ID: 2
-2018-11-09T09:02:56.068Z - INFO - Hive 1 created a new space bee! ID: 4
-2018-11-09T09:02:56.068Z - INFO - Hive 2 created a new space bee! ID: 5
-2018-11-09T09:02:56.069Z - INFO - Hive 3 created a new space bee! ID: 6
-2018-11-09T09:02:56.069Z - INFO - Hive 1 created a new space bee! ID: 7
-2018-11-09T09:02:56.069Z - INFO - Hive 2 created a new space bee! ID: 8
-2018-11-09T09:02:56.069Z - INFO - Hive 3 created a new space bee! ID: 9
-2018-11-09T09:02:56.069Z - INFO - Hive 1 created a new space bee! ID: 10
-2018-11-09T09:02:56.070Z - INFO - Hive 2 created a new space bee! ID: 11
-2018-11-09T09:02:56.070Z - INFO - Hive 3 created a new space bee! ID: 12
-2018-11-09T09:02:56.070Z - INFO - Hive 1 created a new space bee! ID: 13
-2018-11-09T09:02:56.070Z - INFO - Hive 2 created a new space bee! ID: 14
-2018-11-09T09:02:56.071Z - INFO - Hive 3 created a new space bee! ID: 15
-2018-11-09T09:02:56.071Z - INFO - Hive 1 created a new space bee! ID: 16
-2018-11-09T09:02:56.071Z - INFO - Hive 2 created a new space bee! ID: 17
-2018-11-09T09:02:56.071Z - INFO - Hive 3 created a new space bee! ID: 18
-2018-11-09T09:02:58.209Z - FINE - Hive 1 got 47.50 kg of new spacepollen from bee 3. Total amount now: 47.50
-2018-11-09T09:02:58.356Z - WARNING - Hive 3 got 3.66 kg of new spacepollen from bee 12. Total amount now: 3.66
-2018-11-09T09:02:58.581Z - FINE - Hive 2 got 65.98 kg of new spacepollen from bee 14. Total amount now: 65.98
-2018-11-09T09:02:58.691Z - SUPER - Hive 1 got 96.10 kg of new spacepollen from bee 16. Total amount now: 143.60
-2018-11-09T09:02:58.776Z - FINE - Hive 3 got 89.76 kg of new spacepollen from bee 15. Total amount now: 93.42
-2018-11-09T09:02:58.824Z - FINE - Hive 1 got 69.00 kg of new spacepollen from bee 4. Total amount now: 212.60
-2018-11-09T09:02:59.020Z - FINE - Hive 3 got 55.16 kg of new spacepollen from bee 1. Total amount now: 148.57
-2018-11-09T09:02:59.075Z - FINE - Hive 2 got 15.21 kg of new spacepollen from bee 8. Total amount now: 81.19
-2018-11-09T09:02:59.085Z - FINE - Hive 3 got 52.31 kg of new spacepollen from bee 6. Total amount now: 200.88
-2018-11-09T09:02:59.120Z - FINE - Hive 2 got 65.22 kg of new spacepollen from bee 2. Total amount now: 146.40
-2018-11-09T09:02:59.126Z - FINE - Hive 1 got 85.14 kg of new spacepollen from bee 7. Total amount now: 297.74
-2018-11-09T09:02:59.181Z - SUPER - Hive 3 got 94.72 kg of new spacepollen from bee 18. Total amount now: 295.60
-2018-11-09T09:02:59.299Z - FINE - Hive 2 got 71.97 kg of new spacepollen from bee 11. Total amount now: 218.37
-2018-11-09T09:02:59.318Z - FINE - Hive 2 got 71.27 kg of new spacepollen from bee 5. Total amount now: 289.64
-2018-11-09T09:02:59.648Z - FINE - Hive 1 got 30.48 kg of new spacepollen from bee 13. Total amount now: 328.22
-2018-11-09T09:02:59.681Z - SUPER - Hive 1 got 96.70 kg of new spacepollen from bee 10. Total amount now: 424.92
-2018-11-09T09:02:59.914Z - FINE - Hive 3 got 48.47 kg of new spacepollen from bee 9. Total amount now: 344.07
-2018-11-09T09:03:00.007Z - FINE - Hive 2 got 34.63 kg of new spacepollen from bee 17. Total amount now: 324.26
-2018-11-09T09:03:00.613Z - FINE - Hive 1 got 42.60 kg of new spacepollen from bee 3. Total amount now: 467.52
-2018-11-09T09:03:00.693Z - SUPER - Hive 3 got 90.18 kg of new spacepollen from bee 12. Total amount now: 434.25
-2018-11-09T09:03:00.977Z - WARNING - Hive 2 got 2.44 kg of new spacepollen from bee 14. Total amount now: 326.70
-2018-11-09T09:03:01.467Z - FINE - Hive 1 got 89.74 kg of new spacepollen from bee 16. Total amount now: 557.27
-2018-11-09T09:03:01.526Z - FINE - Hive 2 got 70.82 kg of new spacepollen from bee 5. Total amount now: 397.52
-2018-11-09T09:03:01.635Z - FINE - Hive 3 got 88.43 kg of new spacepollen from bee 15. Total amount now: 522.68
-2018-11-09T09:03:01.970Z - FINE - Hive 1 got 24.74 kg of new spacepollen from bee 13. Total amount now: 582.00
-2018-11-09T09:03:02.003Z - FINE - Hive 1 got 57.13 kg of new spacepollen from bee 4. Total amount now: 639.13
-2018-11-09T09:03:02.156Z - FINE - Hive 2 got 55.12 kg of new spacepollen from bee 2. Total amount now: 452.64
-2018-11-09T09:03:02.234Z - FINE - Hive 1 got 25.21 kg of new spacepollen from bee 7. Total amount now: 664.34
-2018-11-09T09:03:02.366Z - FINE - Hive 1 got 57.45 kg of new spacepollen from bee 10. Total amount now: 721.79
-2018-11-09T09:03:02.730Z - FINE - Hive 3 got 18.34 kg of new spacepollen from bee 6. Total amount now: 541.02
-2018-11-09T09:03:02.811Z - FINE - Hive 2 got 53.12 kg of new spacepollen from bee 8. Total amount now: 505.76
-2018-11-09T09:03:02.830Z - FINE - Hive 2 got 46.01 kg of new spacepollen from bee 11. Total amount now: 551.76
-2018-11-09T09:03:02.997Z - FINE - Hive 3 got 24.84 kg of new spacepollen from bee 1. Total amount now: 565.86
-2018-11-09T09:03:02.999Z - WARNING - Hive 2 got 5.25 kg of new spacepollen from bee 14. Total amount now: 557.01
-2018-11-09T09:03:03.003Z - FINE - Hive 3 got 12.59 kg of new spacepollen from bee 9. Total amount now: 578.45
-2018-11-09T09:03:03.097Z - FINE - Hive 2 got 84.68 kg of new spacepollen from bee 17. Total amount now: 641.69
-2018-11-09T09:03:03.099Z - FINE - Hive 3 got 28.88 kg of new spacepollen from bee 18. Total amount now: 607.33
-2018-11-09T09:03:03.513Z - FINE - Hive 1 got 49.25 kg of new spacepollen from bee 16. Total amount now: 771.04
-2018-11-09T09:03:04.354Z - FINE - Hive 3 got 54.54 kg of new spacepollen from bee 15. Total amount now: 661.87
-2018-11-09T09:03:04.496Z - FINE - Hive 3 got 71.94 kg of new spacepollen from bee 12. Total amount now: 733.81
-2018-11-09T09:03:04.558Z - FINE - Hive 2 got 71.49 kg of new spacepollen from bee 5. Total amount now: 713.18
-2018-11-09T09:03:04.565Z - FINE - Hive 1 got 71.70 kg of new spacepollen from bee 3. Total amount now: 842.74
-2018-11-09T09:03:04.865Z - WARNING - Hive 1 got 1.68 kg of new spacepollen from bee 10. Total amount now: 844.42
-2018-11-09T09:03:05.142Z - FINE - Hive 1 got 28.97 kg of new spacepollen from bee 13. Total amount now: 873.40
-2018-11-09T09:03:05.149Z - FINE - Hive 2 got 75.34 kg of new spacepollen from bee 2. Total amount now: 788.53
-2018-11-09T09:03:05.170Z - FINE - Hive 2 got 31.38 kg of new spacepollen from bee 17. Total amount now: 819.91
-2018-11-09T09:03:05.272Z - WARNING - Hive 1 got 2.80 kg of new spacepollen from bee 7. Total amount now: 876.20
-2018-11-09T09:03:05.407Z - FINE - Hive 2 got 31.43 kg of new spacepollen from bee 11. Total amount now: 851.34
-2018-11-09T09:03:05.495Z - FINE - Hive 2 got 50.75 kg of new spacepollen from bee 14. Total amount now: 902.09
-2018-11-09T09:03:05.608Z - FINE - Hive 3 got 12.21 kg of new spacepollen from bee 1. Total amount now: 746.02
-2018-11-09T09:03:05.719Z - FINE - Hive 1 got 59.24 kg of new spacepollen from bee 4. Total amount now: 935.44
-2018-11-09T09:03:05.797Z - FINE - Hive 3 got 52.64 kg of new spacepollen from bee 9. Total amount now: 798.66
-2018-11-09T09:03:05.837Z - FINE - Hive 3 got 59.57 kg of new spacepollen from bee 18. Total amount now: 858.23
-2018-11-09T09:03:06.505Z - FINE - Hive 2 got 42.12 kg of new spacepollen from bee 8. Total amount now: 944.21
-2018-11-09T09:03:06.575Z - FINE - Hive 3 got 49.84 kg of new spacepollen from bee 6. Total amount now: 908.07
-2018-11-09T09:03:06.743Z - FINE - Hive 1 got 56.20 kg of new spacepollen from bee 3. Total amount now: 991.64
-2018-11-09T09:03:07.128Z - FINE - Hive 1 got 64.45 kg of new spacepollen from bee 16. Total amount now: 1056.08
-2018-11-09T09:03:07.235Z - FINE - Hive 1 got 65.92 kg of new spacepollen from bee 10. Total amount now: 1122.01
-2018-11-09T09:03:07.446Z - FINE - Hive 2 got 72.93 kg of new spacepollen from bee 2. Total amount now: 1017.14
-2018-11-09T09:03:07.548Z - FINE - Hive 2 got 81.42 kg of new spacepollen from bee 5. Total amount now: 1098.57
-2018-11-09T09:03:07.688Z - FINE - Hive 2 got 75.36 kg of new spacepollen from bee 11. Total amount now: 1173.93
-2018-11-09T09:03:07.866Z - FINE - Hive 3 got 75.06 kg of new spacepollen from bee 12. Total amount now: 983.13
-2018-11-09T09:03:07.896Z - FINE - Hive 2 got 64.49 kg of new spacepollen from bee 17. Total amount now: 1238.42
-2018-11-09T09:03:08.102Z - FINE - Hive 3 got 87.97 kg of new spacepollen from bee 15. Total amount now: 1071.11
-2018-11-09T09:03:08.206Z - WARNING - Hive 3 got 0.36 kg of new spacepollen from bee 9. Total amount now: 1071.47
-2018-11-09T09:03:08.310Z - FINE - Hive 1 got 42.05 kg of new spacepollen from bee 4. Total amount now: 1164.06
-2018-11-09T09:03:08.461Z - SUPER - Hive 3 got 92.44 kg of new spacepollen from bee 18. Total amount now: 1163.91
-2018-11-09T09:03:08.721Z - FINE - Hive 2 got 41.55 kg of new spacepollen from bee 14. Total amount now: 1279.96
-2018-11-09T09:03:08.839Z - FINE - Hive 1 got 25.83 kg of new spacepollen from bee 13. Total amount now: 1189.89
-2018-11-09T09:03:08.899Z - FINE - Hive 2 got 41.41 kg of new spacepollen from bee 8. Total amount now: 1321.37
-2018-11-09T09:03:08.959Z - SUPER - Hive 3 got 96.82 kg of new spacepollen from bee 1. Total amount now: 1260.73
-2018-11-09T09:03:09.050Z - FINE - Hive 1 got 54.33 kg of new spacepollen from bee 7. Total amount now: 1244.22
-2018-11-09T09:03:09.532Z - SUPER - Hive 2 got 98.43 kg of new spacepollen from bee 2. Total amount now: 1419.80
-2018-11-09T09:03:09.580Z - FINE - Hive 1 got 23.59 kg of new spacepollen from bee 3. Total amount now: 1267.81
-2018-11-09T09:03:09.698Z - FINE - Hive 2 got 27.80 kg of new spacepollen from bee 11. Total amount now: 1447.60
-2018-11-09T09:03:10.098Z - FINE - Hive 3 got 12.83 kg of new spacepollen from bee 6. Total amount now: 1273.56
-2018-11-09T09:03:10.369Z - WARNING - Hive 3 got 4.63 kg of new spacepollen from bee 15. Total amount now: 1278.19
-2018-11-09T09:03:10.385Z - FINE - Hive 1 got 83.43 kg of new spacepollen from bee 16. Total amount now: 1351.24
-2018-11-09T09:03:10.420Z - FINE - Hive 3 got 70.04 kg of new spacepollen from bee 9. Total amount now: 1348.23
-2018-11-09T09:03:10.520Z - FINE - Hive 3 got 29.65 kg of new spacepollen from bee 12. Total amount now: 1377.88
-2018-11-09T09:03:10.811Z - FINE - Hive 1 got 17.93 kg of new spacepollen from bee 10. Total amount now: 1369.17
-2018-11-09T09:03:10.826Z - FINE - Hive 2 got 27.75 kg of new spacepollen from bee 17. Total amount now: 1475.35
-2018-11-09T09:03:11.234Z - FINE - Hive 2 got 66.72 kg of new spacepollen from bee 5. Total amount now: 1542.07
+2018-11-09T09:15:34.768Z - INFO - New space bee hive created! ID: 1
+2018-11-09T09:15:34.770Z - INFO - Hive 1 created a new space bee! ID: 1
+2018-11-09T09:15:34.770Z - INFO - Hive 1 created a new space bee! ID: 2
+2018-11-09T09:15:34.770Z - INFO - Hive 1 created a new space bee! ID: 3
+2018-11-09T09:15:34.771Z - INFO - Hive 1 created a new space bee! ID: 4
+2018-11-09T09:15:34.771Z - INFO - Hive 1 created a new space bee! ID: 5
+2018-11-09T09:15:34.772Z - INFO - Hive 1 created a new space bee! ID: 6
+2018-11-09T09:15:34.772Z - INFO - New space bee hive created! ID: 2
+2018-11-09T09:15:34.772Z - INFO - Hive 2 created a new space bee! ID: 7
+2018-11-09T09:15:34.772Z - INFO - Hive 2 created a new space bee! ID: 8
+2018-11-09T09:15:34.773Z - INFO - Hive 2 created a new space bee! ID: 9
+2018-11-09T09:15:34.773Z - INFO - Hive 2 created a new space bee! ID: 10
+2018-11-09T09:15:34.774Z - INFO - Hive 2 created a new space bee! ID: 11
+2018-11-09T09:15:34.774Z - INFO - Hive 2 created a new space bee! ID: 12
+2018-11-09T09:15:34.775Z - INFO - New space bee hive created! ID: 3
+2018-11-09T09:15:34.775Z - INFO - Hive 3 created a new space bee! ID: 13
+2018-11-09T09:15:34.775Z - INFO - Hive 3 created a new space bee! ID: 14
+2018-11-09T09:15:34.776Z - INFO - Hive 3 created a new space bee! ID: 15
+2018-11-09T09:15:34.776Z - INFO - Hive 3 created a new space bee! ID: 16
+2018-11-09T09:15:34.776Z - INFO - Hive 3 created a new space bee! ID: 17
+2018-11-09T09:15:34.777Z - INFO - Hive 3 created a new space bee! ID: 18
+2018-11-09T09:15:36.798Z - FINE - Hive 2 got 59.46 kg of new spacepollen from bee 8. Total amount now: 59.46
+2018-11-09T09:15:36.835Z - FINE - Hive 2 got 62.77 kg of new spacepollen from bee 11. Total amount now: 122.23
+2018-11-09T09:15:37.007Z - FINE - Hive 3 got 46.52 kg of new spacepollen from bee 14. Total amount now: 46.52
+2018-11-09T09:15:37.020Z - FINE - Hive 1 got 80.32 kg of new spacepollen from bee 1. Total amount now: 80.32
+2018-11-09T09:15:37.052Z - FINE - Hive 3 got 12.32 kg of new spacepollen from bee 15. Total amount now: 58.85
+2018-11-09T09:15:37.329Z - FINE - Hive 2 got 49.63 kg of new spacepollen from bee 12. Total amount now: 171.86
+2018-11-09T09:15:37.340Z - FINE - Hive 1 got 24.41 kg of new spacepollen from bee 4. Total amount now: 104.73
+2018-11-09T09:15:37.341Z - FINE - Hive 3 got 31.90 kg of new spacepollen from bee 18. Total amount now: 90.75
+2018-11-09T09:15:37.479Z - FINE - Hive 2 got 38.37 kg of new spacepollen from bee 7. Total amount now: 210.22
+2018-11-09T09:15:37.514Z - SUPER - Hive 1 got 91.93 kg of new spacepollen from bee 2. Total amount now: 196.66
+2018-11-09T09:15:37.558Z - FINE - Hive 1 got 24.48 kg of new spacepollen from bee 5. Total amount now: 221.14
+2018-11-09T09:15:37.997Z - FINE - Hive 3 got 34.23 kg of new spacepollen from bee 16. Total amount now: 124.98
+2018-11-09T09:15:38.193Z - FINE - Hive 2 got 86.77 kg of new spacepollen from bee 9. Total amount now: 297.00
+2018-11-09T09:15:38.232Z - FINE - Hive 1 got 33.22 kg of new spacepollen from bee 3. Total amount now: 254.36
+2018-11-09T09:15:38.272Z - FINE - Hive 3 got 21.05 kg of new spacepollen from bee 17. Total amount now: 146.03
+2018-11-09T09:15:38.571Z - FINE - Hive 2 got 56.92 kg of new spacepollen from bee 10. Total amount now: 353.92
+2018-11-09T09:15:38.699Z - FINE - Hive 3 got 34.19 kg of new spacepollen from bee 13. Total amount now: 180.22
+2018-11-09T09:15:38.737Z - WARNING - Hive 1 got 3.40 kg of new spacepollen from bee 6. Total amount now: 257.76
+2018-11-09T09:15:39.073Z - FINE - Hive 3 got 61.40 kg of new spacepollen from bee 14. Total amount now: 241.62
+2018-11-09T09:15:39.264Z - WARNING - Hive 3 got 9.65 kg of new spacepollen from bee 15. Total amount now: 251.27
+2018-11-09T09:15:39.394Z - WARNING - Hive 3 got 7.75 kg of new spacepollen from bee 18. Total amount now: 259.02
+2018-11-09T09:15:39.540Z - FINE - Hive 1 got 62.17 kg of new spacepollen from bee 1. Total amount now: 319.93
+2018-11-09T09:15:39.853Z - FINE - Hive 2 got 65.56 kg of new spacepollen from bee 8. Total amount now: 419.48
+2018-11-09T09:15:40.046Z - FINE - Hive 2 got 89.64 kg of new spacepollen from bee 11. Total amount now: 509.12
+2018-11-09T09:15:40.225Z - FINE - Hive 1 got 10.23 kg of new spacepollen from bee 2. Total amount now: 330.17
+2018-11-09T09:15:40.276Z - FINE - Hive 2 got 10.44 kg of new spacepollen from bee 12. Total amount now: 519.56
+2018-11-09T09:15:40.477Z - FINE - Hive 2 got 34.68 kg of new spacepollen from bee 7. Total amount now: 554.23
+2018-11-09T09:15:40.558Z - FINE - Hive 3 got 65.81 kg of new spacepollen from bee 17. Total amount now: 324.83
+2018-11-09T09:15:40.910Z - WARNING - Hive 3 got 0.44 kg of new spacepollen from bee 13. Total amount now: 325.27
+2018-11-09T09:15:40.991Z - FINE - Hive 3 got 29.88 kg of new spacepollen from bee 16. Total amount now: 355.16
+2018-11-09T09:15:41.070Z - FINE - Hive 1 got 70.27 kg of new spacepollen from bee 4. Total amount now: 400.44
+2018-11-09T09:15:41.140Z - FINE - Hive 1 got 70.19 kg of new spacepollen from bee 5. Total amount now: 470.63
+2018-11-09T09:15:41.150Z - FINE - Hive 1 got 70.31 kg of new spacepollen from bee 3. Total amount now: 540.94
+2018-11-09T09:15:41.152Z - FINE - Hive 2 got 64.88 kg of new spacepollen from bee 10. Total amount now: 619.12
+2018-11-09T09:15:41.191Z - FINE - Hive 3 got 27.48 kg of new spacepollen from bee 14. Total amount now: 382.64
+2018-11-09T09:15:41.286Z - FINE - Hive 3 got 53.58 kg of new spacepollen from bee 15. Total amount now: 436.22
+2018-11-09T09:15:41.529Z - WARNING - Hive 1 got 1.80 kg of new spacepollen from bee 6. Total amount now: 542.74
+2018-11-09T09:15:41.534Z - FINE - Hive 3 got 70.37 kg of new spacepollen from bee 18. Total amount now: 506.59
+2018-11-09T09:15:41.595Z - FINE - Hive 2 got 79.88 kg of new spacepollen from bee 9. Total amount now: 699.00

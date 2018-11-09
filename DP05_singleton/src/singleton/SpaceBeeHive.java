@@ -7,7 +7,7 @@ package singleton;
  *
  * @author Antti Nieminen
  */
-public class SpaceBeeHive implements Runnable {
+public class SpaceBeeHive {
 
     private static int hiveIDCounter = 0;
     private double spacePollen;
@@ -18,6 +18,7 @@ public class SpaceBeeHive implements Runnable {
         id = hiveIDCounter;
         String string = String.format("New space bee hive created! ID: %d", id);
         Logger.getInstance().log(Logger.level.INFO, string);
+        createBees(6);
     }
 
     public void addSpacePollenToHive(double amount, SpaceBee bee) {
@@ -31,18 +32,13 @@ public class SpaceBeeHive implements Runnable {
         } else {
             Logger.getInstance().log(Logger.level.FINE, string);
         }
-
     }
 
-    @Override
-    public void run() {
+    public void createBees(int amount) {
         SpaceBeeFactory beefactory = new SpaceBeeFactory();
-        new Thread(beefactory.createSpaceBee(this)).start();
-        new Thread(beefactory.createSpaceBee(this)).start();
-        new Thread(beefactory.createSpaceBee(this)).start();
-        new Thread(beefactory.createSpaceBee(this)).start();
-        new Thread(beefactory.createSpaceBee(this)).start();
-        new Thread(beefactory.createSpaceBee(this)).start();
+        for (int i = 0; i < amount; i++) {
+            new Thread(beefactory.createSpaceBee(this)).start();
+        }
     }
 
     public int getId() {
