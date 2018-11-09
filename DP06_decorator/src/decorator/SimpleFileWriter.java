@@ -6,13 +6,12 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class SimpleFileWriter implements CipheredFileWriter {
 
     private final String file = "important.info";
 
+    @Override
     public void write(String string) {
         try {
             FileWriter filewriter = new FileWriter(file);
@@ -23,6 +22,7 @@ public class SimpleFileWriter implements CipheredFileWriter {
         }
     }
 
+    @Override
     public String read() {
         String line = null;
         try {
