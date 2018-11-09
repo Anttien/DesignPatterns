@@ -1,13 +1,13 @@
 package decorator;
 
-public class CaesarCipherFileWriter extends CipheredFileWriterDecorator {
+public class CaesarCipherDecorator extends CipheredFileWriterDecorator {
     
     /**
      * How much character shift is applied.
      */
     private final int shift = 2;
 
-    public CaesarCipherFileWriter(CipheredFileWriter CaesarCipherFileWriterToDecorate) {
+    public CaesarCipherDecorator(CipheredFileWriter CaesarCipherFileWriterToDecorate) {
         super(CaesarCipherFileWriterToDecorate);
     }
 

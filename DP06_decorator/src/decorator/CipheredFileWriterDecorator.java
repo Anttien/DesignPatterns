@@ -2,20 +2,20 @@ package decorator;
 
 public abstract class CipheredFileWriterDecorator implements CipheredFileWriter {
 
-    protected CipheredFileWriter CaesarCipherFileWriterToDecorate;
+    protected CipheredFileWriter FileWriterToDecorate;
 
     public CipheredFileWriterDecorator(CipheredFileWriter CaesarCipherFileWriterToDecorate) {
-        this.CaesarCipherFileWriterToDecorate = CaesarCipherFileWriterToDecorate;
+        this.FileWriterToDecorate = CaesarCipherFileWriterToDecorate;
     }
 
     @Override
     public void write(String string) {
-        CaesarCipherFileWriterToDecorate.write(string);
+        FileWriterToDecorate.write(string);
     }
 
     @Override
     public String read() {
-        return CaesarCipherFileWriterToDecorate.read();
+        return FileWriterToDecorate.read();
     }
 
 }
