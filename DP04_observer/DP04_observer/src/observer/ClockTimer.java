@@ -36,7 +36,8 @@ public class ClockTimer extends Observable implements Runnable {
                 counter++;
                 
                 setChanged();
-                notifyObservers(new int[]{hour, minute, second});
+                int[] time = new int[]{hour, minute, second};
+                notifyObservers(time);
             }
         }
     }

@@ -16,7 +16,7 @@ public class PointerHour implements Observer {
     private int hour = -1; // Negative so the first update will print the current hour
 
     @Override
-    public void update(Observable o, Object arg) {
+    public void update(Observable o, Object time) {
         ClockTimer timer = (ClockTimer) o;
         if (timer.getHour() != this.hour) {
             this.hour = timer.getHour();

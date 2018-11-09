@@ -20,11 +20,11 @@ public class Clock implements Observer {
     private int second;
 
     @Override
-    public void update(Observable o, Object arg) {
-        int[] time = (int[]) arg;
-        this.hour = time[0];
-        this.minute = time[1];
-        this.second = time[2];
+    public void update(Observable o, Object time) {
+        int[] timeArray = (int[]) time;
+        this.hour = timeArray[0];
+        this.minute = timeArray[1];
+        this.second = timeArray[2];
         System.out.println(this.toString());
     }
 
