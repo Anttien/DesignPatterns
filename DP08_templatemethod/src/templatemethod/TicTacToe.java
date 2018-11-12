@@ -18,8 +18,11 @@ public class TicTacToe extends Game {
     private int winner = 0;
     private char[] squares;
     private boolean endOfGame = false;
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Initialize the board to be drawn and the squares the markers go in.
+     */
     @Override
     void initializeGame() {
         if (super.playersCount > 2) {
@@ -78,7 +81,7 @@ public class TicTacToe extends Game {
     }
 
     /**
-     * Players take turns to place markers to the board.
+     * Reads the player's input and puts markers to the game board.
      */
     @Override
     void makePlay(int player) {
