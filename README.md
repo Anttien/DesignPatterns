@@ -11,3 +11,7 @@ Please note that some of the code is in Finnish.
 - DP03b - Same as 3 but with Abstract Factory
 - DP04 - Observer
 - DP05 - Singleton
+- DP06 - Decorator
+- DP07 - State
+- DP08 - Template Method
+- DP09 - Strategy
