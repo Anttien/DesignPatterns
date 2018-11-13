@@ -3,7 +3,8 @@ package chainofresponsibility;
 public class Ceo extends Handler {
     
     private final double raiseAcceptThreshold = 15.0;
-
+    
+    // If the raise request exceeds the raiseAcceptThreshold, forward the request to a successor
     @Override
     public void handleRaiseRequest(double percent) {
         if (percent <= raiseAcceptThreshold) {
