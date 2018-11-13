@@ -1,4 +1,4 @@
-Strategy pattern makes it convenient to change object behaviour dynamically. This program compares different sorting algorithm run times by changing the sorting algorithm dynamically via a Strategy design pattern and outputs the results to console. The current algorithms are merge sort, selection sort and quick sort.
+Strategy pattern makes it convenient to change object behaviour dynamically. This program compares different sorting algorithm run times by changing the sorting algorithm dynamically via a Strategy design pattern and outputs the results to console. The current sorting algorithms are merge sort, selection sort and quick sort.
 
 An example output:
 
