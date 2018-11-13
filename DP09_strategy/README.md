@@ -1,6 +1,6 @@
 Strategy pattern makes it convenient to change object behaviour dynamically. This program compares different sorting algorithm run times by changing the sorting algorithm dynamically via a Strategy design pattern and outputs the results to console. The current sorting algorithms are merge sort, selection sort and quick sort.
 
-An example output:
+An example output of sorting an array of 1000000 randomized integers:
 
     Sorting done (merge sort)! Took: 0.25 seconds.
     Sorting done (selection sort)! Took: 220.62 seconds.
