@@ -1,0 +1,3 @@
+This project implements Chain of Responsibility design pattern by declaring four different handlers for pay rise requests. Each handler knows their own acceptance threshold and when that threshold is exceeded with the request, the handler forwards it to the next handler in the chain. For example, if the first handler `Manager` cannot accept the 3.0% pay rise request, it forwards it to it's successor `Director` and so on. Because each handler object is loosely coupled, it is possible to dynamically modify the chain during runtime.
+
+![alt text](https://github.com/Iepvzaeh/DesignPatterns/blob/master/DP10_chainofresponsibility/UML%2010%20Chain%20of%20Responsibility.png)
