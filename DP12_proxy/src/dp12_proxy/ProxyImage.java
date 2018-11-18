@@ -1,7 +1,8 @@
 package dp12_proxy;
 
 /**
- *
+ * This is a proxy object which the client uses to gain access to the
+ * {@link RealImage} object.
  */
 public class ProxyImage implements Image {
 
@@ -30,8 +31,8 @@ public class ProxyImage implements Image {
     /**
      * Prints the filename
      */
-    public void showData() {
-        System.out.println(filename);
+    public String showData() {
+        return filename;
     }
 
 }

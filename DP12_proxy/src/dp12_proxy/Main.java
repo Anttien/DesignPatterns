@@ -3,11 +3,13 @@ package dp12_proxy;
 import java.util.ArrayList;
 
 /**
+ * This project illustrates the "virtual proxy" design pattern. The
+ * {@link ProxyImage} is used to access the remote method in {@link RealImage}.
  *
- * @see @see <a href="https://en.wikipedia.org/wiki/Proxy_pattern">Proxy Pattern
+ * @see <a href="https://en.wikipedia.org/wiki/Proxy_pattern">Proxy Pattern
  * in Wikipedia</a>
  */
-class Main {
+public class Main {
 
     /**
      * Test method
@@ -24,9 +26,9 @@ class Main {
         images = album.getImages();
         System.out.println("Showing the content of the album: ");
         images.forEach((image) -> {
-            image.showData();
+            System.out.println(image.showData());
         });
-        
+
         image1.displayImage(); // loading necessary
         image1.displayImage(); // loading unnecessary
         image2.displayImage(); // loading necessary

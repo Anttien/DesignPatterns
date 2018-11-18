@@ -1,7 +1,8 @@
 package dp12_proxy;
 
 /**
- *
+ * This is the real remote image, which is loaded from the disk only after
+ * it is needed for display.
  */
 public class RealImage implements Image {
 
@@ -34,8 +35,8 @@ public class RealImage implements Image {
     /**
      * Prints the filename
      */
-    public void showData() {
-        System.out.println(filename);
+    public String showData() {
+        return filename;
     }
 
 }
