@@ -1,6 +1,6 @@
 # Design Patterns
 
-These are simple programs that implement different design patterns introduced in the book _Design Patterns: Elements of Reusable Object-Oriented Software_ by Erich Gamma. They are assignments for the class "Design Patterns" in Metropolia UAS. UML class diagrams are provided for each project in their folders.
+These are simple programs that implement different design patterns introduced in the book _Design Patterns: Elements of Reusable Object-Oriented Software_ by the Gang of Four. The programs are assignments for the class "Design Patterns" in Metropolia UAS. UML class diagrams are provided for each project in their folders.
 
 Please note that some of the code is in Finnish.
 
@@ -15,3 +15,4 @@ Please note that some of the code is in Finnish.
 - DP07 - State
 - DP08 - Template Method
 - DP09 - Strategy
+- DP10 - Chain of Responsibility
