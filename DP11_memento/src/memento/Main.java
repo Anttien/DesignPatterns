@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         Riddler riddler = new Riddler();
         Guesser guesser = new Guesser(riddler);
-        guesser.run();
+        new Thread(guesser).start();
     }
     
 }
