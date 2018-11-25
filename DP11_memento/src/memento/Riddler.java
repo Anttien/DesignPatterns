@@ -15,7 +15,7 @@ public class Riddler {
         random = new Random();
     }
     
-    public Object joinGame(Guesser guesser) {
+    public Object joinGame() {
         // Create a random number and store it in memento, return it
         int rightAnswer = random.nextInt(1000);
         Answer answer = new Answer(rightAnswer);

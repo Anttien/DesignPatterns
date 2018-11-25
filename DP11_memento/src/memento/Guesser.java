@@ -20,7 +20,7 @@ public class Guesser implements Runnable {
 
     @Override
     public void run() {
-        answer = riddler.joinGame(this);
+        answer = riddler.joinGame();
         int guess = random.nextInt(1000);
         while(!riddler.guess(answer, guess)) {
             guess = random.nextInt(1000);

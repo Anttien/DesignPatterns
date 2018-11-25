@@ -1,0 +1,3 @@
+This project implements the Memento design pattern. The `Riddler` (the Originator) object creates an random integer and stores it as an `Answer` (the Memento) object upon request by the `Guesser` (the Caretaker) object. The `Answer` is then passed and stored to the `Guesser` as an `Object`. The `Guesser` then tries to guess what integer is stored in to the object. Because the `Answer` is known only to the `Riddler`, the `Guesser` cannot know the type of the object and thus cannot find out the answer itself. It must pass it's guess and the object to the `Riddler` which in turn restores the object's state and tells the `Guesser` whether it's guess was right.
+
+![alt text](https://github.com/Iepvzaeh/DesignPatterns/blob/master/DP11_memento/UML%2011%20Memento.png)
