@@ -1,8 +1,5 @@
 package prototype;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 public class Clock implements Runnable, Cloneable {
 
     private PointerHour pointerHour;
@@ -44,7 +41,7 @@ public class Clock implements Runnable, Cloneable {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException ex) {
-                Logger.getLogger(Clock.class.getName()).log(Level.SEVERE, null, ex);
+                ex.printStackTrace();
             }
             tick();
         }
@@ -61,9 +58,9 @@ public class Clock implements Runnable, Cloneable {
         Clock clockClone = null;
         try {
             clockClone = (Clock)super.clone();
-            clockClone.pointerHour = (PointerHour)pointerHour.clone();
-            clockClone.pointerMinute = (PointerMinute)pointerMinute.clone();
-            clockClone.pointerSecond = (PointerSecond)pointerSecond.clone();
+            clockClone.pointerHour = (PointerHour)PointerFactory.getPointer("hour");
+            clockClone.pointerMinute = (PointerMinute)PointerFactory.getPointer("minute");
+            clockClone.pointerSecond = (PointerSecond)PointerFactory.getPointer("second");
         } catch (CloneNotSupportedException ex) {
             ex.printStackTrace();
         }

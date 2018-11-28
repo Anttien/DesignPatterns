@@ -1,6 +1,6 @@
 package prototype;
 
-public class PointerMinute implements Cloneable {
+public class PointerMinute implements Pointer {
 
     private int pointer = 0;
 
@@ -26,7 +26,7 @@ public class PointerMinute implements Cloneable {
     }
 
     @Override
-    public Object clone() {
+    public Pointer clone() {
         PointerMinute pointerClone = null;
         try {
             pointerClone = (PointerMinute) super.clone();
