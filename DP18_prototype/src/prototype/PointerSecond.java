@@ -1,5 +1,9 @@
 package prototype;
 
+/**
+ * Keeps track of the seconds.
+ * @author Antti Nieminen
+ */
 public class PointerSecond implements Pointer {
 
     private int pointer = 0;

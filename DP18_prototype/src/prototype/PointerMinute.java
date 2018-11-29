@@ -1,5 +1,9 @@
 package prototype;
 
+/**
+ * Keeps track of the minutes.
+ * @author Antti Nieminen
+ */
 public class PointerMinute implements Pointer {
 
     private int pointer = 0;
