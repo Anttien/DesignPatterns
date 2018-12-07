@@ -1,7 +1,7 @@
 package prototype;
 
 /**
- * This program implements the Prototype design pattern. It utilizes the clone()
+ * This program implements the prototype design pattern. It utilizes the clone()
  * function of the {@link Cloneable} interface. Two clocks are made, from which
  * the latter is a clone. To prove that it is actually a deep copy, the hashes of
  * the objects are printed to the console.

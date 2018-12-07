@@ -1,0 +1,3 @@
+This project implements the prototype design pattern. It simulates a simple clock that is made up from three `Pointer` objects each keeping track of either hours, minutes or seconds. A factory to generate clones of the `Pointer` objects is presented. The classes implement the `Cloneable` interface and override the `clone()` method to satisfy the needs for cloning. The `PrototypeDemo` class creates and clones the clock and prints out the hashes of both clocks and their pointers to prove that a deep copy has been made.
+
+![alt text](https://github.com/Iepvzaeh/DesignPatterns/blob/master/DP18_prototype/UML%2018%20Prototype.png)
