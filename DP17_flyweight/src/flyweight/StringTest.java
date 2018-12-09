@@ -15,7 +15,7 @@ public class StringTest {
         System.out.println(fly == fly2);       // fly and fly2 refer to the same String instance
         System.out.println(weight == weight2); // weight and weight2 also
 
-        // Concatenated String literals are "interned" and refer to the same String instance
+        // Concatenated String literals are interned and refer to the same String instance
         String distinctString1 = "fly" + "weight";
         System.out.println(distinctString1 == "flyweight");
 
