@@ -1,0 +1,3 @@
+This is a very rough design for a software that could be used to control drones via an virtual reality interface. It implements the bridge design pattern by separating the abstraction `Drawer` from it's implementation `3dVisualizer`. The `DrawerVR` class would be used to handle all the data coming from the VR device. The idea is that the VR device is used to control the flight paths of the drones in a space. The implementation classes are `3dVisualizerStudio` that could be used to digitally visualize the data from the VR device and the `3dVisualizerLive` that could be used to deliver the data straight to the drones allowing live control.
+
+![alt text](https://github.com/Iepvzaeh/DesignPatterns/blob/master/DP16_bridge/UML%2016%20Bridge.png)
