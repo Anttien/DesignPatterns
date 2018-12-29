@@ -1,7 +1,8 @@
 package dp13_visitor;
 
 /**
- *
+ * A state object for the {@link Frog} character/context.
+ * 
  * @author Antti Nieminen
  */
 public class FrogYoung implements CharacterState {
@@ -23,8 +24,8 @@ public class FrogYoung implements CharacterState {
     }
 
     @Override
-    public int accept(BonusVisitor bonusVisitor) {
-        return bonusVisitor.visit(this);
+    public void accept(BonusVisitor bonusVisitor, Character character) {
+        bonusVisitor.visit(this, character);
     }
 
 }

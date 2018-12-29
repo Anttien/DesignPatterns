@@ -1,10 +1,12 @@
 package dp13_visitor;
 
 /**
+ * This is a element part of the visitor design pattern as well as the context 
+ * part of the state design pattern.
  *
  * @author Antti Nieminen
  */
-public class Dragon {
+public class Dragon implements Character {
 
     private CharacterState state;
     private int diamonds;
@@ -26,11 +28,15 @@ public class Dragon {
     }
     
     public void accept(BonusVisitor bonusVisitor) {
-        this.diamonds += this.state.accept(bonusVisitor);
+        this.state.accept(bonusVisitor, this);
     }
     
     public int getDiamonds() {
         return this.diamonds;
+    }
+    
+    public void addDiamonds(int diamonds) {
+        this.diamonds += diamonds;
     }
 
 }

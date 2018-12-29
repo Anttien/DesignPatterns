@@ -1,33 +1,31 @@
 package dp13_visitor;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
- *
+ * A state object for the {@link Dragon} character/context.
+ * 
  * @author Antti Nieminen
  */
 public class DragonYoung implements CharacterState {
 
     @Override
     public void move() {
-        System.out.println("The baby dragon waddles.");
+        System.out.println("The young dragon waddles.");
     }
 
     @Override
     public void breathe() {
-        System.out.println("The baby dragon coughes and some steam comes out of it's mouth.");
+        System.out.println("The young dragon coughes and some steam comes out of it's mouth.");
     }
 
     @Override
     public CharacterState grow() {
-        System.out.println("The baby dragon grows bigger!");
+        System.out.println("The young dragon grows bigger!");
         return new DragonAdult();
     }
 
-    @Override
-    public int accept(BonusVisitor bonusVisitor) {
-        return bonusVisitor.visit(this);
+   @Override
+    public void accept(BonusVisitor bonusVisitor, Character character) {
+        bonusVisitor.visit(this, character);
     }
 
 }

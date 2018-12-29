@@ -1,7 +1,8 @@
 package dp13_visitor;
 
 /**
- *
+ * A state object for the {@link Dragon} character/context.
+ * 
  * @author Antti Nieminen
  */
 public class DragonElder implements CharacterState {
@@ -22,9 +23,9 @@ public class DragonElder implements CharacterState {
         return this;
     }
 
-    @Override
-    public int accept(BonusVisitor bonusVisitor) {
-        return bonusVisitor.visit(this);
+   @Override
+    public void accept(BonusVisitor bonusVisitor, Character character) {
+        bonusVisitor.visit(this, character);
     }
 
 }

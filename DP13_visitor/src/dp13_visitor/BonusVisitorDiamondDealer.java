@@ -1,49 +1,53 @@
-
 package dp13_visitor;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
- *
+ * The object responsible of giving diamonds to each character. The amount of
+ * diamonds are unique for every {@link CharacterState} object.
+ * 
  * @author Antti Nieminen
  */
 public class BonusVisitorDiamondDealer implements BonusVisitor {
 
     @Override
-    public int visit(DragonYoung dragonYoung) {
+    public void visit(DragonYoung dragonYoung, Object context) {
         System.out.println("A young dragon was visited by the diamond dealer.");
-        return 10;
+        Dragon dragon = (Dragon) context;
+        dragon.addDiamonds(10);
     }
 
     @Override
-    public int visit(DragonAdult dragonAdult) {
+    public void visit(DragonAdult dragonAdult, Object context) {
         System.out.println("An adult dragon was visited by the diamond dealer.");
-        return 50;
+        Dragon dragon = (Dragon) context;
+        dragon.addDiamonds(50);
     }
 
     @Override
-    public int visit(DragonElder dragonElder) {
+    public void visit(DragonElder dragonElder, Object context) {
         System.out.println("An elder dragon was visited by the diamond dealer.");
-        return 100;
+        Dragon dragon = (Dragon) context;
+        dragon.addDiamonds(100);
     }
 
     @Override
-    public int visit(FrogYoung frogYoung) {
+    public void visit(FrogYoung frogYoung, Object context) {
         System.out.println("A young frog was visited by the diamond dealer.");
-        return 5;
+        Frog frog = (Frog) context;
+        frog.addDiamonds(5);
     }
 
     @Override
-    public int visit(FrogAdult frogAdult) {
+    public void visit(FrogAdult frogAdult, Object context) {
         System.out.println("An adult frog was visited by the diamond dealer.");
-        return 35;
+        Frog frog = (Frog) context;
+        frog.addDiamonds(35);
     }
 
     @Override
-    public int visit(FrogElder frogElder) {
+    public void visit(FrogElder frogElder, Object context) {
         System.out.println("An elder frog was visited by the diamond dealer.");
-        return 75;
+        Frog frog = (Frog) context;
+        frog.addDiamonds(75);
     }
 
 }
