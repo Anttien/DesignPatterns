@@ -1,6 +1,12 @@
 package adapter;
 
 /**
+ * The main driver class for the program that implements the adapter design
+ * pattern. This program represents a situation where a guitar player wants to
+ * record and listen to his playing using a modern digital recorder or an old
+ * analog recorder. The old analog recorder has a different UI than the modern
+ * one, but the player prefers the modern UI. An adapter is used to make the
+ * needed connections to fill this requirement.
  *
  * @author Antti Nieminen
  */

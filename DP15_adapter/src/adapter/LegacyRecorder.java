@@ -1,5 +1,14 @@
 package adapter;
 
+/**
+ * Represents an old analog recording device / mixer that has 4 XLR inputs and 2
+ * unbalanced mono outputs. Adds a little 60's grit to the signal. It doesn't
+ * actually save the recording anywhere; it can be only listened.
+ *
+ * This is the adaptee of the adapter design pattern.
+ *
+ * @author Antti Nieminen
+ */
 public class LegacyRecorder {
 
     private XLRCable in1XLR;

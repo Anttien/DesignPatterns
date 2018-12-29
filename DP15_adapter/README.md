@@ -1,0 +1,5 @@
+This project implements the object adapter design pattern. It represents a situation where a guitar player wants to record and listen to his playing using a modern digital recorder or an old analog recorder. The old analog recorder has a different UI than the modern one, but as the player prefers the modern UI, an adapter is used to make the needed connections fulfilling this requirement.
+
+The `GuitarPlayer` can plug the guitar and headphones to the `LegacyRecorderAdapter`, which implements the required UI that is defined in the `GuitarRecorder` class and which converts the inputs and outputs of the `LegacyRecorder` to the player's requirements. When `GuitarPlayer`'s `play()` method is called, it sends a String through the system which ends up to the `Headphones` object that the player can `listen()` to. The signal is transmitted by the 3 classes that represents audio cables: `XLRCable`, `UnbalancedMonoCable` and `BalancedStereoCable`.
+
+![alt text](https://github.com/Iepvzaeh/DesignPatterns/blob/master/DP15_adapter/UML%2015%20Adapter.png)

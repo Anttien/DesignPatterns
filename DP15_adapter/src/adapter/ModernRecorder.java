@@ -1,5 +1,12 @@
 package adapter;
 
+/**
+ * Represents a modern recorder. The guitarist can plug his guitar and
+ * headphones straight to the device. It doesn't actually save the recording
+ * anywhere; it can be only listened.
+ *
+ * @author Antti Nieminen
+ */
 public class ModernRecorder implements GuitarRecorder {
 
     private UnbalancedMonoCable guitarIn;

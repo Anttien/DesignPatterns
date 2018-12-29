@@ -1,5 +1,11 @@
 package adapter;
 
+/**
+ * A class that represents a balanced stereo cable. Transmits the two audio
+ * signals (left and right) as a String.
+ *
+ * @author Antti Nieminen
+ */
 public class BalancedStereoCable {
 
     private StringBuilder signalOut;

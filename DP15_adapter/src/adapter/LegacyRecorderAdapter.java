@@ -1,5 +1,14 @@
 package adapter;
 
+/**
+ * This class represents the adapter that converts the guitarists cable to fit
+ * the XLR input and to convert the unbalanced mono outputs of the analog device
+ * ({@link LegacyRecoder}) to an balanced stereo output for the headphones.
+ * 
+ * This is an object adapter of the adapter design pattern.
+ *
+ * @author Antti Nieminen
+ */
 public class LegacyRecorderAdapter implements GuitarRecorder {
 
     private UnbalancedMonoCable guitarIn;
