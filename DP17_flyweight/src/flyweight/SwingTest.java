@@ -1,11 +1,20 @@
 package flyweight;
 
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.*;
 
+/**
+ * Tests if Swing border objects are flyweight objects. Swing provides a border
+ * factory that creates flyweight borders. Therefore the comparing of `border1`
+ * and `border2` results true. Each border has shared intrinsic states, and the
+ * extrinsic states (in this case only `Dimension`) are passed in during runtime
+ *
+ * Source:
+ * <a href=https://www.javaworld.com/article/2073632/build-ci-sdlc/make-your-apps-fly.html>
+ * Javaworld </a>
+ */
 public class SwingTest extends JFrame {
 
     public static void main(String[] args) {
