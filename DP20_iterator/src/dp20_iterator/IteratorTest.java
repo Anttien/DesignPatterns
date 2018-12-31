@@ -24,6 +24,11 @@ public class IteratorTest {
         list.add("b");
         list.add("c");
         list.add("d");
+        list.add("e");
+        list.add("f");
+        list.add("g");
+        list.add("h");
+        list.add("i");
         instanceIterator = list.iterator();
     }
 
