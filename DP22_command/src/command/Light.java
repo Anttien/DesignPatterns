@@ -1,7 +1,7 @@
 package command;
 
 /**
- * Interface for the concrete receivers.
+ * Interface for the concrete receivers. Models a light, that can be switched on/off.
  * @author Antti Nieminen
  */
 public interface Light {

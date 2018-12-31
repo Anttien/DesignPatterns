@@ -1,7 +1,7 @@
 package command;
 
 /**
- * A receiver class.
+ * A receiver class. Models a green light, that can be switched on/off.
  * @author Antti Nieminen
  */
 public class LightGreen implements Light {
