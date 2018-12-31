@@ -1,0 +1,1 @@
+This program implements the facade design pattern. It is an example taken from [Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern) and is "*...an abstract example of how a client [...] interacts with a facade (the "computer") to a complex system (internal computer parts, like CPU and HardDrive)*". 
